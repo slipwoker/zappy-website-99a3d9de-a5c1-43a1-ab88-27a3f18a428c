@@ -7,69 +7,69 @@
 ## Pages
 
 ### בית
-https://barsade-linoprints-99a3d9de.zappy5.app
+https://example.com
 הכניסו הביתה נגיעה של אומנות יד עם הדפסי לינו ממוסגרים לבית. כל יצירה בעבודת יד, מלאת טקסטורה ואופי, הופכת כל קיר לגלריה אישית. התחילו לאסוף אמנות מקורית עכשיו.
 
 ### אודות
-https://barsade-linoprints-99a3d9de.zappy5.app/about
+https://example.com/about
 הכירו את הסדנה שמאחורי אמנות לינוגרפיה ישראלית — תהליך ידני, מסורתי ומלא תשוקה. כאן נוצרים הדפסים מקוריים שהופכים לפריטי אמנות ותיקים שימושיים. בואו לגלות את הקסם שבמלאכה.
 
 ### גלריה
-https://barsade-linoprints-99a3d9de.zappy5.app/gallery
+https://example.com/gallery
 דפדפו בגלריה של הדפסי לינו ממוסגרים לבית ותיקים עם הדפסי לינו בעבודת יד. כל תמונה מספרת סיפור של טקסטורה, צבע ומגע אנושי. מצאו את היצירה שתשלים לכם את החלל.
 
 ### צור קשר
-https://barsade-linoprints-99a3d9de.zappy5.app/contact
+https://example.com/contact
 צרו קשר להזמנת הדפסי לינו ממוסגרים לבית, תיקים מודפסים בעבודת יד או כל שאלה על מתנות אמנות מקוריות. אנחנו כאן כדי להפוך את החזון האמנותי שלכם למציאות. כתבו לנו עוד היום.
 
 ### Products
-https://barsade-linoprints-99a3d9de.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Barsade_linoprints
 
 ### Cart
-https://barsade-linoprints-99a3d9de.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://barsade-linoprints-99a3d9de.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://barsade-linoprints-99a3d9de.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://barsade-linoprints-99a3d9de.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://barsade-linoprints-99a3d9de.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://barsade-linoprints-99a3d9de.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Barsade_linoprints
 
 ### Category
-https://barsade-linoprints-99a3d9de.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Barsade_linoprints
 
 ### תודה רבה | Barsade_linoprints
-https://barsade-linoprints-99a3d9de.zappy5.app/thank-you
+https://example.com/thank-you
 תודה שפנית אלינו. הודעתך התקבלה בהצלחה ונחזור אליך בהקדם בנוגע להדפסי לינו ממוסגרים לבית או תיקים בעבודת יד.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://barsade-linoprints-99a3d9de.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://barsade-linoprints-99a3d9de.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://barsade-linoprints-99a3d9de.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -97,8 +97,8 @@ Art & Handmade Crafts E-commerce
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://barsade-linoprints-99a3d9de.zappy5.app/sitemap.xml
-- Robots: https://barsade-linoprints-99a3d9de.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://barsade-linoprints-99a3d9de.zappy5.app/llms-full.txt
-- Products (JSON): https://barsade-linoprints-99a3d9de.zappy5.app/products.json
-- Products (Google Merchant RSS): https://barsade-linoprints-99a3d9de.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
