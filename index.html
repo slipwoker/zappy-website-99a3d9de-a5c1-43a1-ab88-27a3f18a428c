@@ -366,7 +366,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "99a3d9de-a5c1-43a1-ab88-27a3f18a428c";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "99a3d9de-a5c1-43a1-ab88-27a3f18a428c";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -877,20 +877,20 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="index-hero-section" data-zappy-content-align="center-mid-right">
   <!-- Single full-bleed background image -->
-  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-hero-bg-1" data-context="A large wall covered edge-to-edge with approximately 60 linocut prints on brightly colored paper — cyan, lime green, yellow, orange, red, pink, lavender — each print showing a bold black ink portrait or figure of a music icon (Freddie Mercury, David Bowie, Bob Marley, Amy Winehouse, etc.), arranged in a 9-column by 6-row grid, photographed straight-on in a white-walled studio room with fluorescent ceiling lights.. Composition: straight-on eye-level full-wall grid, slight wide-angle perspective. Framing: full-bleed, runs corner-to-corner, fills entire frame. Background: white studio walls, fluorescent ceiling light strip, air conditioning unit visible top-right. Treatment: full-bleed background" data-treatment="full-bleed background" data-dominant-color="#e8a020" data-aspect-ratio="4:3" alt="קיר מלא בהדפסי לינו צבעוניים" width="800" height="600" src="/assets/site-index-hero-hero-bg-1.webp" class="hero-bg-img">
+  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-hero-bg-1" data-context="A large wall covered edge-to-edge with approximately 60 linocut prints on brightly colored paper — cyan, lime green, yellow, orange, red, pink, lavender — each print showing a bold black ink portrait or figure of a music icon (Freddie Mercury, David Bowie, Bob Marley, Amy Winehouse, etc.), arranged in a 9-column by 6-row grid, photographed straight-on in a white-walled studio room with fluorescent ceiling lights.. Composition: straight-on eye-level full-wall grid, slight wide-angle perspective. Framing: full-bleed, runs corner-to-corner, fills entire frame. Background: white studio walls, fluorescent ceiling light strip, air conditioning unit visible top-right. Treatment: full-bleed background" data-treatment="full-bleed background" data-dominant-color="#e8a020" data-aspect-ratio="4:3" alt="קיר מלא בהדפסי לינו צבעוניים" width="800" height="600" src="/assets/site-index-hero-hero-bg-1.webp" class="hero-bg-img" data-hero-background="true" data-element-type="image" data-element-id="img-1782303388960-1dyuh2fyi" style="pointer-events: auto !important;">
 
   <!-- Dark scrim overlay for legibility -->
   <div class="hero-scrim" aria-hidden="true"></div>
 
   <!-- Content rail -->
-  <div class="hero-content">
+  <div class="hero-content" data-zappy-align-target="true" style="">
     <h1 class="hero-headline">הדפסי לינו עבודת יד</h1>
     <h3 class="hero-subtitle">יצירות אמנות ממוסגרות לקיר וגם על תיקים — כל הדפס נחתך ומודפס בעבודת יד אמיתית</h3>
     <div class="hero-cta-group">
-      <a href="/shop" class="btn-primary">לחנות ההדפסים</a>
-      <a href="/gallery" class="btn-secondary">לגלריה</a>
+      <a href="/shop" class="btn-primary" style="color: rgb(0, 0, 0) !important;" data-element-type="button" data-element-id="btn-1782303388955-70vouiq2c" data-native-element="true">לחנות ההדפסים</a>
+      <a href="/gallery" class="btn-secondary" data-element-type="button" data-element-id="btn-1782303388955-wetoyodn6" data-native-element="true">לגלריה</a>
     </div>
   </div>
 </section>
@@ -1013,7 +1013,7 @@
       <!-- Tile 4 -->
       <article class="gallery-tile" data-grid-item-index="3">
         <div class="tile-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="print-cobain" data-context="Linocut portrait of Kurt Cobain on acid green paper, gritty hand-carved texture" width="400" height="533" src="/assets/site-print-cobain.webp" alt="הדפס לינו — קורט קוביין על נייר ירוק חומצה" data-element-type="image" data-element-id="img-1782212285762-xicfur1i5" >
+          <img loading="lazy" decoding="async" data-placeholder="print-cobain" data-context="Linocut portrait of Kurt Cobain on acid green paper, gritty hand-carved texture" width="400" height="533" src="/assets/site-print-cobain.webp" alt="הדפס לינו — קורט קוביין על נייר ירוק חומצה" data-element-type="image" data-element-id="img-1782212285762-xicfur1i5" style="">
         </div>
         <div class="tile-overlay">
           <h3 class="tile-title" style="color: rgb(26, 26, 26) !important;">קורט קוביין</h3>
@@ -1024,7 +1024,7 @@
       <!-- Tile 5 -->
       <article class="gallery-tile" data-grid-item-index="4">
         <div class="tile-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="print-winehouse" data-context="Linocut portrait of Amy Winehouse on coral pink paper, dramatic black ink contrast" width="400" height="533" src="/assets/site-print-winehouse.webp" alt="הדפס לינו — איימי ויינהאוס על נייר ורוד אלמוג" data-element-type="image" data-element-id="img-1782212285762-qew7knuw3" >
+          <img loading="lazy" decoding="async" data-placeholder="print-winehouse" data-context="Linocut portrait of Amy Winehouse on coral pink paper, dramatic black ink contrast" width="400" height="533" src="/assets/site-print-winehouse.webp" alt="הדפס לינו — איימי ויינהאוס על נייר ורוד אלמוג" data-element-type="image" data-element-id="img-1782212285762-qew7knuw3" style="">
         </div>
         <div class="tile-overlay">
           <h3 class="tile-title" style="color: rgb(26, 26, 26) !important;">איימי ויינהאוס</h3>
@@ -1035,7 +1035,7 @@
       <!-- Tile 6 -->
       <article class="gallery-tile" data-grid-item-index="5">
         <div class="tile-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="print-mercury" data-context="Linocut portrait of Freddie Mercury on royal blue paper, striking black ink" width="400" height="533" src="/assets/site-print-mercury.webp" alt="הדפס לינו — פרדי מרקיורי על נייר כחול מלכותי" data-element-type="image" data-element-id="img-1782212285763-ya7pum7gx" >
+          <img loading="lazy" decoding="async" data-placeholder="print-mercury" data-context="Linocut portrait of Freddie Mercury on royal blue paper, striking black ink" width="400" height="533" src="/assets/site-print-mercury.webp" alt="הדפס לינו — פרדי מרקיורי על נייר כחול מלכותי" data-element-type="image" data-element-id="img-1782212285763-ya7pum7gx" style="">
         </div>
         <div class="tile-overlay">
           <h3 class="tile-title" style="color: rgb(26, 26, 26) !important;">פרדי מרקיורי</h3>
@@ -1046,7 +1046,7 @@
       <!-- Tile 7 -->
       <article class="gallery-tile" data-grid-item-index="6">
         <div class="tile-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="print-marley" data-context="Linocut portrait of Bob Marley on rasta red paper, soulful ink carving" width="400" height="533" src="/assets/site-print-marley.webp" alt="הדפס לינו — בוב מארלי על נייר אדום ראסטה" data-element-type="image" data-element-id="img-1782212285763-9blokbbgy" >
+          <img loading="lazy" decoding="async" data-placeholder="print-marley" data-context="Linocut portrait of Bob Marley on rasta red paper, soulful ink carving" width="400" height="533" src="/assets/site-print-marley.webp" alt="הדפס לינו — בוב מארלי על נייר אדום ראסטה" data-element-type="image" data-element-id="img-1782212285763-9blokbbgy" style="">
         </div>
         <div class="tile-overlay">
           <h3 class="tile-title" style="color: rgb(26, 26, 26) !important;">בוב מארלי</h3>
@@ -1057,7 +1057,7 @@
       <!-- Tile 8 -->
       <article class="gallery-tile" data-grid-item-index="7">
         <div class="tile-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="print-simone" data-context="Linocut portrait of Nina Simone on deep purple paper, powerful black ink texture" width="400" height="533" src="/assets/site-print-simone.webp" alt="הדפס לינו — נינה סימון על נייר סגול עמוק" data-element-type="image" data-element-id="img-1782212285763-aavkixgv9" >
+          <img loading="lazy" decoding="async" data-placeholder="print-simone" data-context="Linocut portrait of Nina Simone on deep purple paper, powerful black ink texture" width="400" height="533" src="/assets/site-print-simone.webp" alt="הדפס לינו — נינה סימון על נייר סגול עמוק" data-element-type="image" data-element-id="img-1782212285763-aavkixgv9" style="">
         </div>
         <div class="tile-overlay">
           <h3 class="tile-title" style="color: rgb(26, 26, 26) !important;">נינה סימון</h3>
@@ -1068,7 +1068,7 @@
       <!-- Tile 9 -->
       <article class="gallery-tile" data-grid-item-index="8">
         <div class="tile-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="print-dylan" data-context="Linocut portrait of Bob Dylan on teal paper, raw hand-printed marks" width="400" height="533" src="/assets/site-print-dylan.webp" alt="הדפס לינו — בוב דילן על נייר טורקיז" data-element-type="image" data-element-id="img-1782212285763-awacnkoxv" >
+          <img loading="lazy" decoding="async" data-placeholder="print-dylan" data-context="Linocut portrait of Bob Dylan on teal paper, raw hand-printed marks" width="400" height="533" src="/assets/site-print-dylan.webp" alt="הדפס לינו — בוב דילן על נייר טורקיז" data-element-type="image" data-element-id="img-1782212285763-awacnkoxv" style="">
         </div>
         <div class="tile-overlay">
           <h3 class="tile-title" style="color: rgb(26, 26, 26) !important;">בוב דילן</h3>
@@ -1079,7 +1079,7 @@
       <!-- Tile 10 -->
       <article class="gallery-tile" data-grid-item-index="9">
         <div class="tile-image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="print-jagger" data-context="Linocut portrait of Mick Jagger on hot pink paper, expressive black ink carving" width="400" height="533" src="/assets/site-print-jagger.webp" alt="הדפס לינו — מיק ג׳אגר על נייר ורוד לוהט" data-element-type="image" data-element-id="img-1782212285763-o1lkv3mjq" >
+          <img loading="lazy" decoding="async" data-placeholder="print-jagger" data-context="Linocut portrait of Mick Jagger on hot pink paper, expressive black ink carving" width="400" height="533" src="/assets/site-print-jagger.webp" alt="הדפס לינו — מיק ג׳אגר על נייר ורוד לוהט" data-element-type="image" data-element-id="img-1782212285763-o1lkv3mjq" style="">
         </div>
         <div class="tile-overlay">
           <h3 class="tile-title" style="color: rgb(26, 26, 26) !important;">מיק ג׳אגר</h3>
